@@ -1,0 +1,80 @@
+body {
+    background-color:rgb(255, 234, 221);
+}
+
+h1 {
+    color: black;
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    color: rgb(41, 41, 41);
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+/* A rectangle to write in */
+.rectangle {
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 25px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.rectangleSmall {
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 25px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+/* Make results */
+.button {
+    display: block;
+    margin: auto;
+    height: 75px;
+    width: 200px;
+    transition-duration: 0.4s;
+    background-color: rgb(197, 145, 114);;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5%;
+    border: 2px solid #555555;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: rgb(80, 49, 32);;
+    color: white;
+  }
+
+/* A rectangle with all the results */
+.result {
+    margin: auto; 
+    margin-top: 25px;
+    height: 100px;
+    width: 1000px;
+    background-color: white;
+    color: lightgray;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5%;
+    border: 2px solid black;
+}

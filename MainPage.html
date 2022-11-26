@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Метод секущих (хорд)</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+        
+    <h1>
+        Метод секущих (хорд) решения нелинейных уравнений
+    </h1>
+
+    <p>
+        Введите уравнение: <input id="equasion" type="text" placeholder="Например x^2+2x-1" class="rectangle">
+    </p>
+
+    <p>
+        Поиск в интервале от <input id="interval1" type="text" class="rectangleSmall">
+        до <input id="interval2" type="text" class="rectangleSmall">
+    </p>
+
+    <p>
+        Точность <input id="accuracy" type="text" placeholder="0.001" class="rectangle">
+    </p>
+
+    <input id="resultButton" type="button" class="button" value="Результат"></input>
+    <!-- <button class="button">Найти корни!</button> -->
+
+    <div class="result">Тут будет результат вычислений</div>
+
+    <script src="Method.js"></script>
+</body>
+</html>
