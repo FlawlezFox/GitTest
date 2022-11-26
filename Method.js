@@ -9,5 +9,5 @@ button.onclick = function() {
     alert(equasion.value);
     alert(a.value);
     alert(b.value);
-    alert(accuracy.value);
+    alert(accuracy.value + "hi");
 }
